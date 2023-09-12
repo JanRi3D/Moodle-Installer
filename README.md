@@ -26,11 +26,9 @@ To install Moodle with ease, follow these simple steps:
    ```shell
    bash Install.sh
 
+   The standard username and database name used for Moodle during installation is Moodle.
+
 ## Using a Proxy (Optional)
 If you want to use a proxy like Nginx Proxy Manager with Moodle, you'll need to make some additional configurations. Open the Moodle configuration file located at /var/www/Moodle/config.php and add the following line to enable reverse proxy support:
    ```php
    $CFG->reverseproxy = true;
-
-## Standard Username and Database Name
-
-The standard username and database name used for Moodle during installation is Moodle.
